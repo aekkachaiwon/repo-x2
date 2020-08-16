@@ -14,8 +14,8 @@ class UserSeeder extends Seeder
     {
          // INSERT INTO users VALUES()
         $user = new User();
-        $user->name = "Bundit Nuntates";
-        $user->email = "silkyland@gmail.com";
+        $user->name = "chiwat";
+        $user->email = "sasddd@gmail.com";
         $user->password = bcrypt("1234");
         $user->save();
     }
